@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import {BiSearch} from "react-icons/bi"
 import ThemeComp from './ThemeComp'
-import MenuItem from './Menuitem'
+import MenuItem from './MenuItem'
 import { useRouter } from 'next/navigation'
 
 const header = () => {
