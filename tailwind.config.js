@@ -11,7 +11,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins:{
+    autoprefixer: {},
+  },
   darkMode: 'class'
  
 }

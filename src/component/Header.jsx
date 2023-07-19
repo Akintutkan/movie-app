@@ -1,9 +1,10 @@
 "use client"
-import React,{useState} from 'react'
+import React from 'react'
 import {BiSearch} from "react-icons/bi"
 import ThemeComp from './ThemeComp'
 import MenuItem from './MenuItem'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 
 const header = () => {
     const [keyword,setKeyword] =useState("")
