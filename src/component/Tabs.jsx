@@ -12,8 +12,8 @@ const Tabs = () => {
         {name:"En Popüler",
           url:"popular"
     },
-    {name:"En Son",
-          url:"latest"
+    {name:"En Yüksek Puan",
+          url:"top_rated"
     },
     {name:"Yakında",
           url:"upcoming"
